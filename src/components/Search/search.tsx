@@ -37,7 +37,6 @@ const Search = ({setWeatherData} : {setWeatherData : any}) => {
       ),
     });
     const weather = await fetchWeatherDataByCountry(data.country)
-    console.log(weather)
     setWeatherData(weather)
   }
 
